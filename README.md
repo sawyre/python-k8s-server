@@ -25,7 +25,7 @@ docker build -t python-server .
 docker run -p 32777:8080 python-server
 ```
 #### На кластере
-- Установить minikube и выполнить
+Установить minikube и выполнить
 ```commandline
 cd ./iac/k8s
 minikube start
@@ -33,7 +33,7 @@ kubectl apply -f deployment.yml
 kubectl apply -f service.yml
 kubectl port-forward service/python-server 32777:32777
 ```
-либо если нужно запретить выход подам в интернет
+для запрета выхода подам в интернет
 ```commandline
 cd ./iac/k8s
 minikube start --cni=calico

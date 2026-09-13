@@ -1,6 +1,7 @@
 ## Тестовое задание
 
-Простое "Hello world" приложение на python + fastapi + uvicorn. Также добавлены конфигурации для запуска приложения на k8s кластере
+Простое "Hello world" приложение на python + fastapi + uvicorn. Также добавлены конфигурации для запуска приложения на k8s кластере  
+https://hub.docker.com/repository/docker/sawyre/fastapi-server/general
 
 ### Структура проекта
 app  
